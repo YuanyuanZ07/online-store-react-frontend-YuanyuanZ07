@@ -9,7 +9,7 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/online-store-react-frontend-YuanyuanZ07">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
